@@ -20,6 +20,6 @@ jump_user@jump_host as well could be jump_user1@jump_host1 jump_user2@jump_host2
 
 <list of hosts> file must be structured like in below:
 
-userid@h1
-userid@h2
-userid@h3
+userid@h1/n
+userid@h2/n
+userid@h3/n
