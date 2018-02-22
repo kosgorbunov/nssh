@@ -12,8 +12,8 @@ export GOPATH=~/golang
 go get github.com/howeyc/gopass
 go get golang.org/x/crypto/ssh
  
-disk free root
-------------------
+disk free root sample command:
+
 time go run ./longarms.go jump_user@jump_host  /.../<list of hosts> " echo -n \`hostname --fqdn\` ; echo -n \" \"; echo \`df -h /\` | awk '{print \$12}' "
  
 jump_user@jump_host as well could be jump_user1@jump_host1 jump_user2@jump_host2 jump_user3@jump_host3 to build ssh jumps chain
